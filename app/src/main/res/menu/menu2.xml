@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:title=""
+            app:actionLayout="@layout/action_layout_menu_seccion_1"/>
+    </group>
+
+    <item
+        android:title="................................................................................................."
+        android:icon="@android:color/transparent"
+        android:enabled="false"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_anio"
+            android:title="Año"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_mes"
+            android:title="Mes"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/ic_semana"
+            android:title="Semana"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:icon="@drawable/s"
+            android:title="Dia"/>
+        <item
+            android:id="@+id/menu_seccion_6"
+            android:icon="@drawable/ic_reminder"
+            android:title="Reminder"/>
+    </group>
+
+    <item
+        android:title="................................................................................................."
+        android:icon="@android:color/transparent"
+        android:enabled="false"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_7"
+            android:icon="@drawable/ic_phone"
+            android:title="Mi teléfono"/>
+        <item
+            android:id="@+id/menu_seccion_8"
+            android:icon="@drawable/ic_samsunga"
+            android:title="Samsung Account"/>
+
+        <item
+            android:id="@+id/menu_seccion_9"
+            android:icon="@drawable/ic_google"
+            android:title="Google" />
+
+        <item
+            android:id="@+id/menu_seccion_10"
+            android:icon="@drawable/ic_google"
+            android:title="Google"/>
+        <item
+            android:id="@+id/menu_seccion_11"
+            android:icon="@drawable/ic_appli"
+            android:title="Eventos de aplicaciones"/>
+    </group>
+
+    <!-- Línea divisoria -->
+    <item
+        android:title="................................................................................................."
+        android:icon="@android:color/transparent"
+        android:enabled="false"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_12"
+            android:icon="@drawable/ic_papelera"
+            android:title="Papelera"/>
+        <item
+            android:id="@+id/menu_seccion_13"
+            android:icon="@drawable/ic_sincronizar"
+            android:title="Sincronizar ahora"/>
+    </group>
+
+</menu>
